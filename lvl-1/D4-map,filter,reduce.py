@@ -7,3 +7,6 @@ def square(item):
 
 result = list(map(square, my_list)) # map(function, iterable)
 print(result)
+
+#above is only map example.
+#reduce and filter is not really used in real world, but it is good to know how it works.
