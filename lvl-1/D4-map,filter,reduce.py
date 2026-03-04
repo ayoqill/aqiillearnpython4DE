@@ -5,5 +5,5 @@ my_list = [1, 2, 3, 4, 5]
 def square(item):
     return item*item
 
-result = my_list(map(square, my_list)) # map(function, iterable)
+result = list(map(square, my_list)) # map(function, iterable)
 print(result)
